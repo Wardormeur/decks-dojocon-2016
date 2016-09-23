@@ -1,0 +1,22 @@
+{
+  "name": "cd-decks",
+  "authors": [
+    "Daniel Brierton <daniel@coderdojo.org>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "^3.3.0",
+    "cd-reveal-theme": "https://github.com/DanielBrierton/cd-reveal-theme.git"
+  }
+}
