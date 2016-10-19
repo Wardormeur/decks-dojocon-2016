@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Zen : from a MVP to something usable</title>
+    <link rel="stylesheet" href="../bower_components/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="../bower_components/cd-reveal-theme/dist/coderdojo.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../bower_components/reveal.js/lib/css/zenburn.css">
+    <link rel="stylesheet" href="../css/zen-stack/style.css">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '../bower_components/reveal.js/css/print/pdf.css' : '../bower_components/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Zen</h1>
+          <img class="multi" src="../img/cd.png"></img>
+        </section>
+        <section>
+          <h1>Reminder : Goals of Zen</h1>
+          <ul>
+            <li>Helping dojos</li>
+            <li>Empowering children</li>
+          </ul>
+          <aside class="notes">
+            Helping the mouvement to grow
+            Giving children the opportunity to understand technology, and prove it
+          </aside>
+        </section>
+        <section>
+          <h1>Frameworks</h1>
+          <p>Back-end</p>
+          <img class="multi" src="../img/zen-stack/pg.png"></img>
+          <img class="multi" src="../img/zen-stack/seneca.png"></img>
+          <img class="multi" src="../img/zen-stack/hapi.png"></img>
+        </section>
+        <section>
+          <h1>Archi</h1>
+          <p>"Micro"-services</p>
+          <img src="../img/zen-stack/services.png"></img>
+        </section>
+        <section>
+          <h1>Frameworks</h1>
+          <p>Front-end</p>
+          <img class="multi" src="../img/zen-stack/angular.png"></img>
+          <img class="multi" src="../img/zen-stack/dustjs.png"></img>
+        </section>
+        <section>
+          <h1>Integrations</h1>
+          <img class="multi" src="../img/zen-stack/logentries.png"></img>
+          <img class="multi" src="../img/zen-stack/newrelic.png"></img>
+          <img class="multi" src="../img/zen-stack/circleci.png"></img>
+          <img class="multi" src="../img/zen-stack/lu.png"></img>
+          <br/>
+          <img class="multi" src="../img/zen-stack/crowdin.png"></img>
+          <img class="multi" src="../img/zen-stack/badgekit.png"></img>
+          <img class="multi" src="../img/zen-stack/nodebb.png"></img>
+        </section>
+        <section>
+          <h1>Setup</h1>
+          <img class="multi" src="../img/zen-stack/github.png"></img>
+          <p>node v0.10 :'(</p>
+          <p>https://github.com/CoderDojo/cp-local-development</p>
+          <p>npm install && ./localdev run zen</p>
+          <small>no, it doesn't install nodebb and badgekit (yet)</small>
+        </section>
+        <section>
+          <h1>Dev ?</h1>
+          <p>workspace-zen/*</p>
+          <p>Mailtrap</p>
+        </section>
+        <section>
+          <h1>That's it !</h1>
+          <p>Questions ?</p>
+          <img class="multi" src="../img/cd.png"></img>
+        </section>
+      </div>
+    </div>
+    <script src="../bower_components/reveal.js/js/reveal.js"></script>
+    <script src="../bower_components/reveal.js/lib/js/head.min.js"></script>
+    <script>
+      Reveal.initialize({
+        controls: false,
+        mouseWheel: true,
+        dependencies: [
+          { src: '../bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '../bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '../bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '../bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '../bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '../bower_components/reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+  </body>
+</html>
