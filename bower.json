@@ -17,6 +17,6 @@
   ],
   "dependencies": {
     "reveal.js": "^3.3.0",
-    "cd-reveal-theme": "https://github.com/DanielBrierton/cd-reveal-theme.git"
+    "cd-reveal-theme": "https://github.com/CoderDojo/cd-reveal-theme.git"
   }
 }
