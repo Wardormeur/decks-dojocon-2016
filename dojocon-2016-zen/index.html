@@ -28,15 +28,25 @@
       .reveal .slides section .fragment.padlock.visible .padlockBody {
         transform: matrix(1.0329,0,0,1.12639,-19.2869,-102.017);
       }
+
+      .reveal .slides section .fragment.hidden-fragment.visible:not(.current-fragment) {
+        display: none;
+      }
+
+      .reveal section img.no-border {
+        box-shadow: none;
+        border: none;
+      }
     </style>
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
         <section>
-          <h1>Zen: from a MVP to something usable</h1>
-          <p>Slides: http://github.com/CoderDojo/deck-2016-dojocon</p>
-          <span>Daniel@MakeItPretty / Guillaume@MakeItWork</span>
+          <img class="no-border" src="../img/zen.svg" style="width: 360px;" />
+          <h1>From a Minimum Viable Product<br />to a Lovable Product</h1>
+          <p>Slides: <a href="https://decks.coderdojo.com/dojocon-2016-zen/">https://decks.coderdojo.com/dojocon-2016-zen/</a></p>
+          <span>Daniel - MakeItPretty / Guillaume - MakeItWork</span>
         </section>
         <section>
           <h1>Goals of Zen</h1>
@@ -55,15 +65,15 @@
           </section>
           <section>
             <h1>Dojo Listings</h1>
-            <img src="img/dojo-listing.png" />
+            <img class="stretch" src="img/dojo-listing.png" />
           </section>
           <section>
             <h1>Booking System</h1>
-            <img src="img/dojo-events.png" />
+            <img class="stretch" src="img/dojo-events.png" />
           </section>
           <section>
             <h1>Badging</h1>
-            <img src="img/badges.png" />
+            <img class="stretch" src="img/badges.png" />
           </section>
         </section>
         <section>
@@ -71,7 +81,7 @@
             <h1>Recent Improvements</h1>
           </section>
           <section>
-            <h>Redesign</h2>
+            <h1>Redesign</h1>
           </section>
           <section>
             <h3>Security</h3>
@@ -114,21 +124,38 @@
           </section>
           <section>
             <h1>Start a Dojo</h1>
+            <img class="stretch" src="img/sad.png" />
           </section>
           <section>
             <h1>My Dojos Page</h1>
+            <img class="stretch" src="img/my-dojos.png" />
           </section>
           <section>
             <h1>Booking Enhancements</h1>
+            <ul>
+              <li>Improve registration flow</li>
+              <li>Add children on the fly</li>
+              <li>Clarify language used</li>
+            </ul>
           </section>
           <section>
             <h1>Ticketing Admin Redesign</h1>
+            <ul>
+              <li>Follows same style as user admin</li>
+              <li>Clear separation of approved/unapproved applications</li>
+              <li>Bulk management of applications</li>
+            </ul>
           </section>
           <section>
             <h1>Bulk Management of Users</h1>
           </section>
           <section>
-            <h1>Getting out of MVP: Testing</h1>
+            <h1>Reliability</h1>
+            <ul>
+              <li class="fragment">Testing...</li>
+              <li class="fragment">Testing...</li>
+              <li class="fragment">... and more testing!</li>
+            </ul>
           </section>
           <aside class="notes">
             While we understand than when Zen was still a MVP, it seems we have a retention issue post-creation of a dojo
@@ -140,40 +167,80 @@
           </aside>
         </section>
         <section>
-          <h1>We're far from finished</h1>
-          <ul>
-            <li>Projects</li>
-            <li>Kata</li>
-            <li>Dasbhoards</li>
-            <aside class="notes">
-              Projects = hosting + display, link to badges
-                Some already have a hosting, how to integrate?
-              Kata :
-                - new resource system
-                - new content formatting (bento, visual path)
-            </aside>
-          </ul>
+          <section>
+            <h1>We're far from finished</h1>
+          </section>
+          <section>
+            <h1>Projects</h1>
+          </section>
+          <section>
+            <h1>Kata</h1>
+          </section>
+          <section>
+            <h1>Dashboards</h1>
+          </section>
+          <aside class="notes">
+            Projects = hosting + display, link to badges
+              Some already have a hosting, how to integrate?
+            Kata :
+              - new resource system
+              - new content formatting (bento, visual path)
+          </aside>
         </section>
         <section>
-          <h1>You ?</h1>
-          <ul>
-            <li>Forums</li>
-            <li>Students</li>
-            <li>Github, Kata, translations</li>
-            <li>IRL</li>
-            <aside class="notes">
-              Forums : we still wait for your feedbacks, and (ir)regularly publish our ideas there. Please come :)
-              Students : 2 projects ongoing : a containerized deployment of zen, a stat oriented dashboard for cdf
-              Help us, still : pick a small issue, even once every 3 months and have a look at it :)
-              Translations : many issues, new process of verification to come
-              IRL : what can we do out of the dojo itself? Workshop to create some sushi ? Regular hackhatons ?
-            </aside>
-          </ul>
+          <section>
+            <h1>How you can help</h1>
+          </section>
+          <section>
+            <h1 class="fragment" data-fragment-index="1">Feedback</h1>
+            <div class="fragment fade-in" data-fragment-index="2"><h1 class="fragment fade-out hidden-fragment" data-fragment-index="4">Feedback</h1></div>
+            <div class="fragment fade-in" data-fragment-index="3"><h1 class="fragment fade-out hidden-fragment" data-fragment-index="4">Feedback</h1></div>
+            <ul class="fragment" data-fragment-index="5">
+              <li>If you see an issue, report it</li>
+              <li class="fragment" data-fragment-index="6">If you have a suggestion, tell us</li>
+              <li class="fragment" data-fragment-index="7">Discuss on the forums</li>
+              <li class="fragment" data-fragment-index="7">Create a GitHub issue</li>
+              <li class="fragment" data-fragment-index="7">Email us - info@coderdojo.com</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Contribute</h1>
+            <ul class="fragment fade-out hidden-fragment" data-fragment-index="3">
+              <li class="fragment" data-fragment-index="1">Zen is open source!</li>
+              <li class="fragment" data-fragment-index="1">Contributions are always welcome</li>
+              <li class="fragment" data-fragment-index="2">Code: <a href="https://github.com/CoderDojo/community-platform">https://github.com/CoderDojo/community-platform</a></li>
+              <li class="fragment" data-fragment-index="2">Translations: <a href="https://crowdin.com/project/zen-community-platform">https://crowdin.com/project/zen-community-platform</a></li>
+            </ul>
+            <ul class="fragment" data-fragment-index="3">
+              <li class="fragment" data-fragment-index="4">College projects</li>
+              <li class="fragment" data-fragment-index="5">Hackathons</li>
+              <li class="fragment" data-fragment-index="6">Sushi Cards</li>
+              <li class="fragment" data-fragment-index="7">Tools</li>
+              <li class="fragment" data-fragment-index="8">Anything!</li>
+            </ul>
+          </section>
+          <aside class="notes">
+            Forums : we still wait for your feedbacks, and (ir)regularly publish our ideas there. Please come :)
+            Students : 2 projects ongoing : a containerized deployment of zen, a stat oriented dashboard for cdf
+            Help us, still : pick a small issue, even once every 3 months and have a look at it :)
+            Translations : many issues, new process of verification to come
+            IRL : what can we do out of the dojo itself? Workshop to create some sushi ? Regular hackhatons ?
+          </aside>
         </section>
         <section>
-          <h1>Us ?</h1>
-          <p>Still reachable</p>
-          <p>Want to hear from you :)</p>
+          <section>
+            <h1>We want to build<br />a platform you love</h1>
+          </section>
+          <section>
+            <h1>But we need your help</h1>
+          </section>
+          <section>
+            <h1>We want to hear from you</h1>
+          </section>
+        </section>
+        <section>
+          <h1>Thank you</h1>
+          <img class="no-border" src="../bower_components/cd-reveal-theme/images/coderdojo-foundation.svg" width="320" />
         </section>
       </div>
     </div>
@@ -182,7 +249,7 @@
     <script>
       Reveal.initialize({
         history: true,
-        mouseWheel: true,
+        mouseWheel: false,
         dependencies: [
           { src: '../bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
           { src: '../bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
