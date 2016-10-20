@@ -1,0 +1,197 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Zen : from a MVP to something usable</title>
+    <link rel="stylesheet" href="../bower_components/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="../bower_components/cd-reveal-theme/dist/coderdojo.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../bower_components/reveal.js/lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '../bower_components/reveal.js/css/print/pdf.css' : '../bower_components/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+    <style type="text/css">
+      .padlockBody {
+        transition: transform 0.2s ease-in;
+        transform: matrix(1.0329,0,0,1.12639,-19.2869,-42.017);
+      }
+
+      .reveal .slides section .fragment.padlock {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .reveal .slides section .fragment.padlock.visible .padlockBody {
+        transform: matrix(1.0329,0,0,1.12639,-19.2869,-102.017);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Zen: from a MVP to something usable</h1>
+          <p>Slides: http://github.com/CoderDojo/deck-2016-dojocon</p>
+          <span>Daniel@MakeItPretty / Guillaume@MakeItWork</span>
+        </section>
+        <section>
+          <h1>Goals of Zen</h1>
+          <ul>
+            <li class="fragment">Helping dojos</li>
+            <li class="fragment">Empowering children</li>
+          </ul>
+          <aside class="notes">
+            Helping the mouvement to grow
+            Giving children the opportunity to understand technology, and prove it
+          </aside>
+        </section>
+        <section>
+          <section>
+            <h1>Core Features</h1>
+          </section>
+          <section>
+            <h1>Dojo Listings</h1>
+            <img src="img/dojo-listing.png" />
+          </section>
+          <section>
+            <h1>Booking System</h1>
+            <img src="img/dojo-events.png" />
+          </section>
+          <section>
+            <h1>Badging</h1>
+            <img src="img/badges.png" />
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Recent Improvements</h1>
+          </section>
+          <section>
+            <h>Redesign</h2>
+          </section>
+          <section>
+            <h3>Security</h3>
+            <svg class="padlock fragment" width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+                <g class="padlockBody">
+                    <path d="M421.421,289.435C421.421,260.036 395.392,236.167 363.332,236.167L169.703,236.167C137.643,236.167 111.614,260.036 111.614,289.435L111.614,395.97C111.614,425.369 137.643,449.237 169.703,449.237L363.332,449.237C395.392,449.237 421.421,425.369 421.421,395.97L421.421,289.435Z"/>
+                </g>
+                <g style="transform: translateY(-60px)">
+                    <path d="M176,288L176,176C176,176 181.98,104.057 256,104C330.02,103.943 336,176 336,176L336,240" style="fill:none;stroke:black;stroke-width:38.61px;"/>
+                </g>
+            </svg>
+          </section>
+          <section>
+            <h1>Badge evidence</h1>
+          </section>
+          <aside class="notes">
+            to solve usability issues, too much time on our side on support
+            Security :
+              - multiple partenrship to give us tools to
+              - hachkatons with ppl psecialised in security
+            Unify the look and feel :
+              - users management,
+              - dojo/user pages,
+          </aside>
+        </section>
+        <section>
+          <h1>Growth</h1>
+          <ul>
+            <li>16k users</li>
+            <li>1.5k dojos</li>
+            <li><b>1.5k users with badges</b></li>
+          </ul>
+          <aside class = "notes">
+            W.A.T. badges ??
+          </aside>
+        </section>
+        <section>
+          <section>
+            <h1>Planned in near Future</h1>
+          </section>
+          <section>
+            <h1>Start a Dojo</h1>
+          </section>
+          <section>
+            <h1>My Dojos Page</h1>
+          </section>
+          <section>
+            <h1>Booking Enhancements</h1>
+          </section>
+          <section>
+            <h1>Ticketing Admin Redesign</h1>
+          </section>
+          <section>
+            <h1>Bulk Management of Users</h1>
+          </section>
+          <section>
+            <h1>Getting out of MVP: Testing</h1>
+          </section>
+          <aside class="notes">
+            While we understand than when Zen was still a MVP, it seems we have a retention issue post-creation of a dojo
+            hence the new SAD process
+            (in case you say SAD, explain why it's sad (13 steps :D))
+            New My Dojos page = help SAD botstrap, display info
+            Booking : Clarity on recurring events/term events
+            Review Streamlining onboarding from booking flow/add-children
+          </aside>
+        </section>
+        <section>
+          <h1>We're far from finished</h1>
+          <ul>
+            <li>Projects</li>
+            <li>Kata</li>
+            <li>Dasbhoards</li>
+            <aside class="notes">
+              Projects = hosting + display, link to badges
+                Some already have a hosting, how to integrate?
+              Kata :
+                - new resource system
+                - new content formatting (bento, visual path)
+            </aside>
+          </ul>
+        </section>
+        <section>
+          <h1>You ?</h1>
+          <ul>
+            <li>Forums</li>
+            <li>Students</li>
+            <li>Github, Kata, translations</li>
+            <li>IRL</li>
+            <aside class="notes">
+              Forums : we still wait for your feedbacks, and (ir)regularly publish our ideas there. Please come :)
+              Students : 2 projects ongoing : a containerized deployment of zen, a stat oriented dashboard for cdf
+              Help us, still : pick a small issue, even once every 3 months and have a look at it :)
+              Translations : many issues, new process of verification to come
+              IRL : what can we do out of the dojo itself? Workshop to create some sushi ? Regular hackhatons ?
+            </aside>
+          </ul>
+        </section>
+        <section>
+          <h1>Us ?</h1>
+          <p>Still reachable</p>
+          <p>Want to hear from you :)</p>
+        </section>
+      </div>
+    </div>
+    <script src="../bower_components/reveal.js/js/reveal.js"></script>
+    <script src="../bower_components/reveal.js/lib/js/head.min.js"></script>
+    <script>
+      Reveal.initialize({
+        history: true,
+        mouseWheel: true,
+        dependencies: [
+          { src: '../bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '../bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '../bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '../bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '../bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '../bower_components/reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+  </body>
+</html>
