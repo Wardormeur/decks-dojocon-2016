@@ -1,0 +1,7 @@
+img.multi {
+  width: 200px;
+}
+.reveal section img {
+  border: 0px;
+  box-shadow: none;
+}
